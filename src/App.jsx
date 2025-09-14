@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import ServiceDetail from "./pages/ServiceDetail";
 import Team from "./pages/Team";
-import DoctorProfile from "./pages/DoctorProfile"; // ✅ Correct name
+import DoctorProfile from "./pages/DoctorProfile"; 
 import Contact from "./pages/Contact";
 
 export default function App() {
@@ -23,7 +23,7 @@ export default function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/services/:id" element={<ServiceDetail />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/team/:id" element={<DoctorProfile />} /> {/* ✅ Dynamic route */}
+        <Route path="/team/:id" element={<DoctorProfile />} /> 
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
